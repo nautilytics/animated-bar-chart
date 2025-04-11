@@ -26,7 +26,7 @@ const Bar: FC<BarProps> = ({ x, y, width, height }) => {
 
   return (
     <rect
-      className="stroke-none cursor-pointer fill-green-600 *:hover:fill-green-700"
+      className="stroke-none cursor-pointer fill-blue-600 *:hover:fill-blue-700"
       ref={barRef}
       x={x}
       height={height}

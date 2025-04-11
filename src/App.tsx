@@ -19,7 +19,7 @@ const MONTHS = [
   "Dec",
 ];
 
-const CATEGORIES = ["Gas", "Dining", "Travel", "Streaming", "Groceries"];
+const CATEGORIES = ["Label A", "Label B", "Label C", "Label D", "Label E"];
 
 const MARGIN = {
   top: 10,
@@ -107,7 +107,7 @@ const App: FC = () => {
               .map((d, i) => (
                 <g key={`chart-row-for-${d.category}`}>
                   <Bar
-                    width={xScale(d.value)}
+                    width={Math.max(0, xScale(d.value))}
                     height={yScale.bandwidth()}
                     x={0}
                     y={yScale(i.toString()) as number}
@@ -117,7 +117,7 @@ const App: FC = () => {
                     y={
                       (yScale(i.toString()) as number) + yScale.bandwidth() / 2
                     }
-                    value={`${d.category} (${format("$,.0f")(d.value)})`}
+                    value={d.category}
                   />
                 </g>
               ))}
