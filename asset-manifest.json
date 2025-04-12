@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.25b5f2c5.css",
-    "main.js": "/static/js/main.bb3bd25c.js",
-    "index.html": "/index.html",
-    "main.25b5f2c5.css.map": "/static/css/main.25b5f2c5.css.map",
-    "main.bb3bd25c.js.map": "/static/js/main.bb3bd25c.js.map"
+    "main.css": "/animated-bar-chart/static/css/main.25b5f2c5.css",
+    "main.js": "/animated-bar-chart/static/js/main.bb3bd25c.js",
+    "index.html": "/animated-bar-chart/index.html",
+    "main.25b5f2c5.css.map": "/animated-bar-chart/static/css/main.25b5f2c5.css.map",
+    "main.bb3bd25c.js.map": "/animated-bar-chart/static/js/main.bb3bd25c.js.map"
   },
   "entrypoints": [
     "static/css/main.25b5f2c5.css",
