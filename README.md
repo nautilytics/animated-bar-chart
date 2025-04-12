@@ -1,6 +1,6 @@
 # Animated Bar Chart
 
-
+![Image](https://github.com/user-attachments/assets/fb32202a-d3e9-48f1-bcc0-1bfb0da35f85)
 
 ## Start
 
